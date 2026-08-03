@@ -1,3 +1,9 @@
-export default function Orders() {
-    return <h1>Orders Page</h1>;
+import Typography from "@mui/material/Typography";
+
+export default function OrderPage() {
+    return (
+        <Typography variant="h4">
+            Orders
+        </Typography>
+    );
 }

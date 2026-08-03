@@ -1,3 +1,9 @@
-export default function Inventory() {
-    return <h1>Inventory Page</h1>;
+import Typography from "@mui/material/Typography";
+
+export default function InventoryPage() {
+    return (
+        <Typography variant="h4">
+            Inventory
+        </Typography>
+    );
 }

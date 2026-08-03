@@ -1,3 +1,9 @@
-export default function NotFound() {
-    return <h1>404 - Page Not Found</h1>;
+import Typography from "@mui/material/Typography";
+
+export default function NotFoundPage() {
+    return (
+        <Typography variant="h4">
+            404 - Page Not Found
+        </Typography>
+    );
 }

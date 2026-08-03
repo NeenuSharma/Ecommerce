@@ -1,3 +1,9 @@
-export default function Payment() {
-    return <h1>Payment Page</h1>;
+import Typography from "@mui/material/Typography";
+
+export default function PaymentPage() {
+    return (
+        <Typography variant="h4">
+            Payments
+        </Typography>
+    );
 }
